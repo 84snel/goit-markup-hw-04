@@ -519,28 +519,3 @@ img {
   color: var(--description-text-color);
   margin-top: 4px;
 }
-
-/* ==== баловство ==== */
-
-.link-link-link {
-  display: block;
-}
-
-.link-link-link::after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  top: -22.4px;
-  left: -22.4px;
-  border-radius: 50%;
-  transition: inherit;
-}
-
-.link-link-link:hover::after {
-  box-shadow: -14.56px -14.56px 0 rgba(255, 0, 0, 0.3), -20.384px 0 0 rgba(255, 170, 0, 0.3), -14.56px 14.56px 0 rgba(170, 255, 0, 0.3),
-    0 20.384px 0 rgba(0, 255, 0, 0.3), 14.56px 14.56px 0 rgba(0, 255, 170, 0.3), 20.384px 0 0 rgba(0, 170, 255, 0.3),
-    14.56px -14.56px 0 rgba(0, 0, 255, 0.3), 0 -20.384px 0 rgba(170, 0, 255, 0.3);
-  animation: rotate 2s linear infinite;
-}
