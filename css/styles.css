@@ -200,7 +200,7 @@ img {
 
 .benefits-list-item-icon {
   display: inline-flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   height: 120px;
   background-color: #f5f4fa;
